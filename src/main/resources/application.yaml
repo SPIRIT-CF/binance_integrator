@@ -1,0 +1,19 @@
+server:
+  port: 8050
+spring:
+  jpa:
+    database: POSTGRESQL
+    show-sql: false
+    hibernate:
+      ddl-auto: create
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ex
+    username: postgres
+    password: i986618c
+    driverClassName: org.postgresql.Driver
+
+binance:
+  multiply: 100000000
+  api:
+    key: O7piU0MzSipXOQBgrTeTTpOL1LzGBwIOVWsjDU3vKSOhLHA7xMYyyoLURojgHZ7t
+    secret: OaYxX5353OFUoUMVu6BG93TuuCYagFjIGx24LuoCU5EmX6DcKKqG2xJfqlFkew6A
